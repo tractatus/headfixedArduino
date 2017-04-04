@@ -1,6 +1,15 @@
 # headfixedArduino
 a set of arduino files to control input output on a headfixed styrofoam setup.
 
+## Connect
+![alt tag](https://www.arduino.cc/en/uploads/Guide/DueSerialPorts.jpg)
+
+1) Your ephys event TTL to channel 36 on the Arduino Due as well as the ground to the Arduino Due ground.
+
+2) Connect your USB mouse to proper USB to USB micro converter and the connect it to Arduino Due Native USB port.
+
+3) Connect the Programming Port on Arduino Due to your computer.
+
 ## How to:
 
 1) Upload template_mouse_styrofoam_sensor.ino to an Arduino Due.
