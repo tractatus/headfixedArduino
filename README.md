@@ -1,7 +1,7 @@
 # headfixedArduino
 a set of arduino files to control input output on a headfixed styrofoam setup.
 
-##How to:
+## How to:
 
 1) Upload template_mouse_styrofoam_sensor.ino to an Arduino Due.
 2) Open up the Serial Monitor.
@@ -39,4 +39,10 @@ type anything into the console and press start
 91575,0,0,99,25,65
 91596,0,0,99,18,44
 ```
+
+Interpetation:
+
+| First Column  | Second Column | Third Column |  Fourth Column |  Fifth Column | Sixth Column |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Time stamp since start (ms)  | Trial number (not used)  | Variable state (not used)  | Event ID (99 default for movement)  | Value OR Acceleration in jaw A.U.  | 0 OR Acceleration in pitch  |
 
